@@ -7,8 +7,8 @@ var imgR; //right-eye
 function preload() {
   // load image
   img = loadImage("assets/earring.png");
-  imgL = loadImage("assets/left-eye.png");
-  imgR = loadImage("assets/right-eye.png");
+  //imgL = loadImage("assets/left-eye.png");
+  //imgR = loadImage("assets/right-eye.png");
 }
 
 function setup() {
