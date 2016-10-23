@@ -23,8 +23,8 @@ function setup() {
   ctracker.init(pModel);
   ctracker.start(videoInput.elt);
 
-  slider = createSlider(0, 50, 10);
-  slider.position(0, 400);
+  //slider = createSlider(0, 50, 10);
+  //slider.position(0, 400);
 
   noStroke();
 }
