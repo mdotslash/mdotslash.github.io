@@ -39,7 +39,7 @@ function draw() {
     // set the color of the ellipse based on position on screen
     fill(map(positions[i][0], width * 0.33, width * 0.66, 0, 255), map(positions[i][1], height * 0.33, height * 0.66, 0, 255), 255);
     // draw ellipse at each position point
-    var val = slider.value();
+    //var val = slider.value();
     //rect(positions[27][0], positions[27][1], val, val);
     // rect(positions[32][0], positions[32][1], val, val);
     image(img, positions[32][0]-10, positions[32][1]-10)
