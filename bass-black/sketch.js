@@ -55,14 +55,14 @@ function Hornsy5() {
 function setup() {
   imgArr = loadGif("img/bass.gif"); // load a gif
   imgArr.pause(); // pause it
-  imgFrame = loadImage("img/frame3.png") // shitty png of a polaroid
+  imgFrame = loadImage("img/frame.png") // shitty png of a polaroid
   //oscH
-  createCanvas(700, 800);
+  createCanvas(800, 800);
 }
 
 // show image array
 function draw() {
-  background(0);
+  background(255);
   if (imgArr.loaded()) {
     image(imgArr, 100, 75); // gif
     image(imgFrame, 0, 0);  // gif frame
