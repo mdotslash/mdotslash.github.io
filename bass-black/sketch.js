@@ -12,7 +12,7 @@
 // var s = "'I believe the day will come when all God’s children from bass black to treble white,"
 // var s2 = "will be significant on the Constitution’s keyboard.'"
 // var q = "Martin Luther King Jr";
-var inst = "Play me with 'a', 's', 'd', 'f', 'g'"
+var inst = "'a', 's', 'd', 'f', 'g', 'h'."
   
   
   
