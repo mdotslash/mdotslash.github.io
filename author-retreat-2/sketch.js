@@ -28,7 +28,7 @@ function draw() {
   background(255);
   //image(img, 0, 0);
   if (img.loaded()) {
-    image(img, 40, 0);
+    image(img, 40, 0, img.width/2, img.height/2);
     audioTriggerLow();
     printDB();
   }
